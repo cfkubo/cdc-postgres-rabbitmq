@@ -1,4 +1,7 @@
-# CDC with postgres and rabbitMQ
+# CDC with Postgres and RabbitMQ
+<p align="center">
+<img src="static/cdc.webp" width="800" alt="Online Web Application" />
+</p>
 
 This is a poc repo that demonstrating and implementing the Change Data Capture (CDC) concept using Debezium and PostgreSQL. This project focuses on the monitoring and capturing of row-level changes in PostgreSQL tables. Leveraging Debezium, we enable the distribution of these changes, allowing applications to detect and react to data modifications in real-time.
 
@@ -21,7 +24,7 @@ CREATE TABLE public.customers (
 ```
 
 
-2. From [rabbitMQ GUI](http://localhost:15672) create 
+2. From [rabbitMQ GUI](http://localhost:15672) create
   - new RabbitMQ Topic Exchange called `tutorial.public.customers`
   - new RabbitMQ Queue called `public.customers` and bind it with the exchange using routing key `inventory_customers`
 
