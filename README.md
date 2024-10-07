@@ -1,6 +1,6 @@
 # CDC with Postgres and RabbitMQ
 <p align="center">
-<img src="static/cdc.webp" width="800" alt="Online Web Application" />
+<img src="static/cdc.webp" width="800" alt="cdc" />
 </p>
 
 This is a poc repo that demonstrating and implementing the Change Data Capture (CDC) concept using Debezium and PostgreSQL. This project focuses on the monitoring and capturing of row-level changes in PostgreSQL tables. Leveraging Debezium, we enable the distribution of these changes, allowing applications to detect and react to data modifications in real-time.
@@ -93,3 +93,8 @@ Received message from inventory_customers {
 
 ## References
 - [Streaming CDC Events using RabbitMQ and Debezium](https://medium.com/greenplum-data-clinics/streaming-cdc-events-from-any-database-to-greenplum-data-warehouse-using-rabbitmq-and-debezium-5eccc678dfae)
+
+
+<p align="center">
+<img src="static/cdc-postgres.webp" width="800" alt="cdc-postgres" />
+</p>
